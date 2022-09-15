@@ -1,0 +1,83 @@
+h1 {
+    color: black;
+    background-color: blue;
+    margin: 0px;
+    margin-right: 750px;
+    border-radius: 4px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+body {
+    background-image: url("R.jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0px;
+    text-indent: 50px
+}
+
+.content {
+    width: 50%;
+    float: left;
+}
+
+.content h3 {
+    color: white;
+}
+
+.image {
+    width: 50%;
+    float: right;
+}
+
+
+.figure-name {
+    width: 100%;
+    float: right;
+
+
+}
+
+.figure-name p {
+    color: aqua;
+}
+
+
+.image img {
+    width: 80%;
+    float: right;
+}
+
+ul {
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    line-height: 36px;
+    background-color: aliceblue;
+    font-size: medium;
+}
+
+li {
+    float: left;
+    border: 2px solid white;
+}
+
+a {
+    display: block;
+    padding: 0px 28px;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: aqua;
+}
